@@ -4,15 +4,18 @@
 	
     <meta charset="UTF-8">
     <title>Programacion Visual</title>
+    <link rel="stylesheet" href="../static/css/estilos.css">
     
 </head>
 <body>
 	
-    <header>
+    <header id="encabezado">
 		
         <h1>Programacion Visual 2024</h1>
         
-	    <nav>
+    </header>
+    
+	<nav class="menu">
 			
 			<ul>
 				<li><a href="https://www.fi.unju.edu.ar">Facultad de Ingenieria Unju</a></li>
@@ -25,57 +28,62 @@
 	        	
 			</ul>
 			
-		</nav>
+	</nav>
 		
-	</header>
 	
-    <main>
+	
+    <main class="principal">
 		
 		<h2>Analista Programador Universitario</h2>
 		
-		<section id="alcances">
-
-            <h3>Alcances del Título</h3>
-            <p>El título profesional obtenido por el Egresado de la carrera de Analista Programador Universitario, lo habilita para:</p>
-            <ol>
-                <li>Programar, documentar, instalar, poner en marcha, operar, modificar, probar, medir, mantener y transformar software en general o incluido en sistemas informáticos.</li>
-                <li>Asistir al Profesional de grado informático en tareas de relevamiento y análisis y diseño de sistemas informáticos de cualquier envergadura.</li>
-                <li>Participar en equipos de trabajo para desarrollo o transferencia tecnológica relacionados con la producción y/o manipulación de software.</li>
-            </ol>
-            
-        </section>
-		
-		<section id="materia">
+		<div class="selection">
 			
-            <h3>Programacion Visual</h3>
-            <p>Características Generales:</p>
-            
-            <ul>
-                <li>El estudiante tiene su primer contacto con un IDE.</li>
-                <li>Se experimenta con la creación de aplicación multicapa del tipo RIA (Rich Internet Application) utilizando frameworks de desarrollo usados en la industria del software ponderando la automatización de las técnicas de versionamiento, el trabajo en equipo y la investigación.</li>
-                <li>Se recomienda que los estudiantes de la materia posean conocimientos previos de la resolución de problemas con algoritmos y programación.</li>
-            	<li>Se utiliza las nociones básicas del paradigma de objetos para la programación del backend, Spring boot para la gestión e integración del proyecto software (JPA, Thymelief, Bootstrap).</li>
-            </ul>
-            
-        </section>
-        
-        <section id="profesores">
+			<section id="alcances">
+	
+	            <h3 class="titulos">Alcances del Título</h3>
+	            <p class="parrafo">El título profesional obtenido por el Egresado de la carrera de Analista Programador Universitario, lo habilita para:</p>
+	            <ol class="lista-ol">
+	                <li>Programar, documentar, instalar, poner en marcha, operar, modificar, probar, medir, mantener y transformar software en general o incluido en sistemas informáticos.</li>
+	                <li>Asistir al Profesional de grado informático en tareas de relevamiento y análisis y diseño de sistemas informáticos de cualquier envergadura.</li>
+	                <li>Participar en equipos de trabajo para desarrollo o transferencia tecnológica relacionados con la producción y/o manipulación de software.</li>
+	            </ol>
+	            
+	        </section>
 			
-            <h3>Catedra de la Materia</h3>
-            <p>Profesores:</p>
-            
-            <ul>
-                <li>Profesor Asociado: Ariel Alejandro Vega</li>
-                <li>Profesor Adjunto: Gustavo Sosa</li>
-                <li>Jefe de Trabajos Prácticos: Carolina Apaza</li>
-                <li>Ayudante de Primera: Juan Carlos Rodriguez</li>
-                
-            </ul>
-            
-        </section>
+			<section id="materia">
+				
+	            <h3 class="titulos">Programacion Visual</h3>
+	            <p class="parrafo">Características Generales:</p>
+	            
+	            <ul class="lista-ul" >
+	                <li>El estudiante tiene su primer contacto con un IDE.</li>
+	                <li>Se experimenta con la creación de aplicación multicapa del tipo RIA (Rich Internet Application) utilizando frameworks de desarrollo usados en la industria del software ponderando la automatización de las técnicas de versionamiento, el trabajo en equipo y la investigación.</li>
+	                <li>Se recomienda que los estudiantes de la materia posean conocimientos previos de la resolución de problemas con algoritmos y programación.</li>
+	            	<li>Se utiliza las nociones básicas del paradigma de objetos para la programación del backend, Spring boot para la gestión e integración del proyecto software (JPA, Thymelief, Bootstrap).</li>
+	            </ul>
+	            
+	        </section>
+	        
+	        <section id="profesores">
+				
+	            <h3 class="titulos">Catedra de la Materia</h3>
+	            <p class="parrafo">Profesores:</p>
+	            
+	            <ul class="lista-ul">
+	                <li>Profesor Asociado: Ariel Alejandro Vega</li>
+	                <li>Profesor Adjunto: Gustavo Sosa</li>
+	                <li>Jefe de Trabajos Prácticos: Carolina Apaza</li>
+	                <li>Ayudante de Primera: Juan Carlos Rodriguez</li>
+	                
+	            </ul>
+	            
+	        </section>
+	        
+        </div>
         
         <CENTER>
-        <table>
+
+        <table class="tabla">
 			
 		    <tr>
 		        <th>PERÍODO LECTIVO</th>
@@ -85,7 +93,7 @@
 		    <tr>
 		        <td>CARRERA Y PLANES DE ESTUDIO</td>
 				<td>Analista Programador Universitario</td>
-				<td>2008</td>
+				<!--<td>2008</td>-->
 		    </tr>
 		    
 		    <tr>
@@ -152,7 +160,7 @@
         
 	</main>
     
-    <aside>
+    <aside class="aside">
 		
 		<h3>Contenido Adicional del uso de HTML5</h3>
 		
@@ -161,14 +169,15 @@
 		<p>Representaciones visuales que capturan la esencia y las capacidades del lenguaje HTML5 en el diseño y desarrollo de sitios web.</p>
 		<p>Cada imagen destaca la estructura, las etiquetas y los elementos que hacen de HTML5 una herramienta poderosa para crear páginas web modernas, accesibles y responsivas.</p>
 		
-		<img alt="Imagen1" src="../static/images/img1.jpeg" width="250">
-		<img alt="Imagen2" src="../static/images/img2.jpeg" width="250">
-		<img alt="Imagen3" src="../static/images/img3.jpeg" width="250">
-		<img alt="Imagen4" src="../static/images/img4.jpeg" width="250">
+		<img class="imagen" alt="Imagen1" src="../static/images/img1.jpeg" >
+		<img class="imagen" alt="Imagen2" src="../static/images/img2.jpeg" >
+		<img class="imagen" alt="Imagen3" src="../static/images/img3.jpeg" >
+		<img class="imagen" alt="Imagen4" src="../static/images/img4.jpeg" >
 		
 	</aside>
+
     
-    <footer>
+    <footer id="footer">
 		
 			<p>Redes sociales</p>
 			<a href="https://www.facebook.com">Facebook</a><br>
